@@ -1,0 +1,41 @@
+/tienda-alimentacion/
+│
+├── assets/
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   └── main.js
+│   └── img/
+│       ├── products/
+│       └── icons/
+│
+├── includes/
+│   ├── config.php        (configuración BD y constantes)
+│   ├── database.php      (conexión BD)
+│   ├── functions.php     (funciones helpers)
+│   └── session.php       (manejo de sesiones)
+│
+├── admin/
+│   ├── index.php         (dashboard admin)
+│   ├── products.php      (gestión productos)
+│   ├── stock.php         (gestión stock)
+│   └── orders.php        (gestión pedidos)
+│
+├── classes/
+│   ├── Product.php
+│   ├── User.php
+│   ├── Cart.php
+│   └── Order.php
+│
+├── templates/
+│   ├── header.php
+│   ├── footer.php
+│   └── nav.php
+│
+└── public/
+    ├── index.php         (página principal)
+    ├── catalog.php       (catálogo productos)
+    ├── cart.php          (carrito)
+    ├── login.php
+    ├── register.php
+    └── checkout.php
